@@ -22,7 +22,7 @@ def file_to_c_array(file_path, output_path=None):
    Maximum PCM data size : 16000B - 489B = 15511B (2.5851s / 6KHz)
 */	
 
-/* Generated with WS51F6240_PCM project , {datetime.now()} */
+/* Generated with WS51_PCM project , {datetime.now()} */
 
 #include "WS51F6240.h"	
 

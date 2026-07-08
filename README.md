@@ -20,4 +20,7 @@ Use the command below to generate a C code base on the audio file
 <br>
 * <code>python3 PCM2C.py [audio file path] [playback mode(0 = once , 1 = loop , default = 0)] [output file path]</code>
 <br>
-The absolute maximum PCM data size is 16000B - 489B = 15511B (2.5851s / 6KHz). Limited to 15480B for safety. (2.58s / 6kHz).
+The absolute maximum PCM data size is 16000B - *489B = 15511B (2.5851s / 6KHz). Limited to 15480B for safety. (2.58s / 6kHz).
+
+# Note
+* 489B is the compiled code without PCM data.
